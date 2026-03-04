@@ -1,0 +1,162 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-gala",
+          "title": "Annual Giving Gala",
+          "path": "/events/annual-giving-gala",
+          "body": {
+            "processed": "<p>Join us for the Heartland Community Foundation's signature fundraising event celebrating the power of philanthropy in our region. The Annual Giving Gala brings together donors, nonprofit leaders, business partners, and community champions for an unforgettable evening of inspiration and generosity.</p><h2>Evening Highlights</h2><ul><li>Cocktail reception with live jazz</li><li>Gourmet dinner prepared by Chef Maria Vasquez</li><li>Keynote address by nationally recognized philanthropy leader</li><li>Community Impact Awards honoring outstanding volunteers and partners</li><li>Live and silent auction featuring exclusive experiences</li></ul><p>All proceeds support the Foundation's Community Impact Fund, which provides grants to nonprofits addressing our region's most critical needs.</p>",
+            "summary": "Join us for the Heartland Community Foundation's signature fundraising event celebrating the power of philanthropy in our region. The Annual Giving Gala brings together donors, nonprofit leaders, busi"
+          },
+          "eventDate": {
+            "timestamp": 1792278000
+          },
+          "endDate": {
+            "timestamp": 1792292400
+          },
+          "location": "Grand Ballroom, Heartland Convention Center",
+          "eventCategory": [
+            {
+              "id": "gala",
+              "name": "gala"
+            }
+          ],
+          "registrationUrl": "https://heartlandcf.org/gala",
+          "ticketPrice": "$250 per person, $2,000 per table of 8",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+            "alt": "Elegant gala dinner setting with table decorations",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-nonprofit-summit",
+          "title": "Nonprofit Leaders Summit",
+          "path": "/events/nonprofit-leaders-summit",
+          "body": {
+            "processed": "<p>The annual Nonprofit Leaders Summit is a full-day professional development event designed for executive directors, board members, and senior staff of nonprofit organizations in the Heartland region. This year's theme, 'Leading Through Change,' explores strategies for organizational resilience and innovation.</p><h2>Sessions Include</h2><ul><li>Adaptive leadership in uncertain times</li><li>Diversifying revenue streams beyond grants</li><li>Effective board governance and engagement</li><li>Using data to demonstrate impact</li><li>DEI strategies for nonprofit organizations</li></ul><p>Lunch and all materials included. Continuing education credits available for social workers and nonprofit professionals.</p>",
+            "summary": "The annual Nonprofit Leaders Summit is a full-day professional development event designed for executive directors, board members, and senior staff of nonprofit organizations in the Heartland region. T"
+          },
+          "eventDate": {
+            "timestamp": 1781271000
+          },
+          "endDate": {
+            "timestamp": 1781299800
+          },
+          "location": "Heartland Community Foundation Conference Center",
+          "eventCategory": [
+            {
+              "id": "workshop",
+              "name": "workshop"
+            }
+          ],
+          "registrationUrl": "https://heartlandcf.org/summit",
+          "ticketPrice": "$75 per person (scholarships available)",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80",
+            "alt": "Professional conference with speaker addressing audience",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-giving-day",
+          "title": "Heartland Giving Day",
+          "path": "/events/heartland-giving-day",
+          "body": {
+            "processed": "<p>Heartland Giving Day is a 24-hour online giving event that unites our community in support of local nonprofits. During this community-wide day of generosity, donors can support their favorite organizations through the Foundation's giving portal, with gifts amplified by matching funds from local businesses and foundations.</p><h2>How It Works</h2><ul><li>Browse participating nonprofits on our giving portal</li><li>Make donations to one or more organizations</li><li>Gifts of $25 or more are eligible for matching funds</li><li>Bonus prize pool awards throughout the day for most donors, most raised, and more</li></ul><p>Last year, Heartland Giving Day raised over $3.2 million for 185 local nonprofits with support from 8,500 donors. Join us as we aim to break records in 2026.</p>",
+            "summary": "Heartland Giving Day is a 24-hour online giving event that unites our community in support of local nonprofits. During this community-wide day of generosity, donors can support their favorite organiza"
+          },
+          "eventDate": {
+            "timestamp": 1777957200
+          },
+          "endDate": {
+            "timestamp": 1778043540
+          },
+          "location": "Online at heartlandcf.org/givingday",
+          "eventCategory": [
+            {
+              "id": "community-forum",
+              "name": "community-forum"
+            }
+          ],
+          "registrationUrl": "https://heartlandcf.org/givingday",
+          "ticketPrice": "Free to participate",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80",
+            "alt": "Community members participating in giving day event",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "data": {
+    "nodeNewsItems": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-annual-report",
+          "title": "2025 Annual Report: A Record Year for Community Investment",
+          "path": "/news/2025-annual-report-released",
+          "body": {
+            "processed": "<p>Heartland Community Foundation is pleased to announce the release of our 2025 Annual Report, documenting a record-breaking year of philanthropic impact across the Heartland region.</p><h2>Highlights</h2><ul><li>$18.5 million in total grantmaking, a 12% increase over the prior year</li><li>450 nonprofit organizations received grant funding</li><li>42 new charitable funds established by donors</li><li>Foundation assets surpassed $285 million</li></ul><p>The report features stories from grantees, donors, and community members whose lives have been touched by the Foundation's work. It also outlines our strategic priorities for 2026 and beyond.</p><p>View the full report at heartlandcf.org/annual-report or request a printed copy by contacting our office.</p>",
+            "summary": "Heartland Community Foundation is pleased to announce the release of our 2025 Annual Report, documenting a record-breaking year of philanthropic impact across the Heartland region.Highlights$18.5 mill"
+          },
+          "newsCategory": [
+            {
+              "id": "foundation-news",
+              "name": "foundation-news"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1771167600
+          },
+          "author": "Sarah Mitchell, President & CEO",
+          "summary": {
+            "processed": "<p>Heartland Community Foundation granted $18.5 million to 450 nonprofits in 2025, marking a record year for community investment with assets surpassing $285 million.</p>",
+            "summary": "Heartland Community Foundation granted $18.5 million to 450 nonprofits in 2025, marking a record year for community investment with assets surpassing $285 million."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+            "alt": "Annual report cover with community impact data",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-grant-awards",
+          "title": "Foundation Awards $2.3 Million in Spring Grant Cycle",
+          "path": "/news/spring-2026-grant-recipients",
+          "body": {
+            "processed": "<p>Heartland Community Foundation is proud to announce $2.3 million in grants to 38 nonprofit organizations through our Spring 2026 Community Impact Grant cycle. These investments will support programs in education, health, economic development, and community well-being.</p><h2>Selected Recipients</h2><ul><li><strong>Heartland Literacy Council</strong> - $50,000 for adult literacy and ESL programs</li><li><strong>Community Health Partners</strong> - $45,000 to expand mobile clinic services</li><li><strong>Youth Futures Initiative</strong> - $40,000 for after-school STEM programming</li><li><strong>Heartland Food Cooperative</strong> - $35,000 for healthy food access in food deserts</li></ul><p>This grant cycle received 142 applications requesting more than $8.7 million, underscoring the significant need and the critical role philanthropy plays in our community.</p>",
+            "summary": "Heartland Community Foundation is proud to announce $2.3 million in grants to 38 nonprofit organizations through our Spring 2026 Community Impact Grant cycle. These investments will support programs i"
+          },
+          "newsCategory": [
+            {
+              "id": "grant-announcement",
+              "name": "grant-announcement"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1772380800
+          },
+          "author": "David Chen, Vice President of Programs",
+          "summary": {
+            "processed": "<p>Thirty-eight nonprofit organizations received grants totaling $2.3 million in the Foundation's Spring 2026 Community Impact Grant cycle, supporting education, health, and economic development.</p>",
+            "summary": "Thirty-eight nonprofit organizations received grants totaling $2.3 million in the Foundation's Spring 2026 Community Impact Grant cycle, supporting education, health, and economic development."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
+            "alt": "Grant recipients celebrating at the awards ceremony",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-donor-spotlight",
+          "title": "Donor Spotlight: The Williams Family Legacy Fund",
+          "path": "/news/donor-spotlight-williams-family",
+          "body": {
+            "processed": "<p>For three generations, the Williams family has been quietly transforming lives in the Heartland region through their philanthropic commitment to education. What began as a modest scholarship fund established by Robert and Helen Williams in 1988 has grown into a $4.2 million endowment that has supported more than 500 college students.</p><h2>A Family Tradition of Giving</h2><p>Robert Williams, a retired teacher, and his wife Helen established the Williams Family Legacy Fund with a $10,000 gift to the Foundation. Their goal was simple: ensure that financial barriers would never prevent a motivated student from pursuing higher education.</p><p>Today, their children and grandchildren continue to contribute to the fund and serve on the scholarship selection committee, reviewing applications and interviewing candidates each spring.</p><h2>Impact by the Numbers</h2><ul><li>$4.2 million endowment built over 38 years</li><li>520 scholarships awarded since 1988</li><li>95% of recipients completed their degrees</li><li>Three generations of family involvement</li></ul>",
+            "summary": "For three generations, the Williams family has been quietly transforming lives in the Heartland region through their philanthropic commitment to education. What began as a modest scholarship fund esta"
+          },
+          "newsCategory": [
+            {
+              "id": "donor-spotlight",
+              "name": "donor-spotlight"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1769958000
+          },
+          "author": "Maria Gonzalez, Director of Donor Relations",
+          "summary": {
+            "processed": "<p>The Williams Family Legacy Fund has grown from a $10,000 gift in 1988 to a $4.2 million endowment that has provided 520 scholarships, demonstrating the power of sustained philanthropic commitment.</p>",
+            "summary": "The Williams Family Legacy Fund has grown from a $10,000 gift in 1988 to a $4.2 million endowment that has provided 520 scholarships, demonstrating the power of sustained philanthropic commitment."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+            "alt": "Multi-generational family gathered together",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Heartland Community Foundation",
+          "path": "/homepage",
+          "heroTitle": "Investing in Our Community's Future",
+          "heroSubtitle": "Connecting Generosity with Opportunity Since 1985",
+          "heroDescription": {
+            "processed": "<p>Heartland Community Foundation brings together donors, nonprofits, and community leaders to address our region's most pressing needs. Through strategic grantmaking, donor services, and community leadership, we help build a stronger, more equitable community for generations to come.</p>",
+            "summary": "Heartland Community Foundation brings together donors, nonprofits, and community leaders to address our region's most pressing needs. Through strategic grantmaking, donor services, and community leade"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-assets",
+              "title": "",
+              "number": "$285M",
+              "label": "Assets Under Management"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-grants",
+              "title": "",
+              "number": "$18.5M",
+              "label": "Granted Last Year"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-nonprofits",
+              "title": "",
+              "number": "450+",
+              "label": "Nonprofit Partners"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-funds",
+              "title": "",
+              "number": "600+",
+              "label": "Charitable Funds"
+            }
+          ],
+          "featuredItemsTitle": "Current Grant Opportunities",
+          "ctaTitle": "Start Your Giving Journey",
+          "ctaDescription": {
+            "processed": "<p>Whether you want to establish a fund, make a gift, or include the foundation in your estate plans, our team can help you create a lasting philanthropic legacy that reflects your values and vision.</p>",
+            "summary": "Whether you want to establish a fund, make a gift, or include the foundation in your estate plans, our team can help you create a lasting philanthropic legacy that reflects your values and vision."
+          },
+          "ctaPrimary": "Open a Fund",
+          "ctaSecondary": "Explore Giving Options"
+        }
+      ]
+    }
+  }
+}

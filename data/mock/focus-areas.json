@@ -1,0 +1,141 @@
+{
+  "data": {
+    "nodeFocusAreas": {
+      "__typename": "NodeFocusAreaConnection",
+      "nodes": [
+        {
+          "__typename": "NodeFocusArea",
+          "id": "focus-education",
+          "title": "Education",
+          "path": "/focus-areas/education",
+          "body": {
+            "processed": "<p>Education is the cornerstone of individual opportunity and community prosperity. Heartland Community Foundation invests in programs that improve educational outcomes from early childhood through postsecondary completion, with a focus on closing achievement gaps and expanding access for underserved students.</p><h2>Our Strategy</h2><p>We support a continuum of educational programming including early literacy, STEM education, college and career readiness, mentoring, and scholarship opportunities. We also invest in innovative approaches that engage families, strengthen schools, and prepare young people for the workforce of the future.</p><h2>Recent Investments</h2><ul><li>$2.1 million in scholarships awarded to 280 students</li><li>$850,000 to early childhood literacy programs reaching 1,500 children</li><li>$600,000 for STEM enrichment in underserved schools</li><li>$400,000 for college and career readiness coaching</li></ul>",
+            "summary": "Education is the cornerstone of individual opportunity and community prosperity. Heartland Community Foundation invests in programs that improve educational outcomes from early childhood through posts"
+          },
+          "iconName": "graduation-cap",
+          "investmentTotal": "$4.2 million annually",
+          "grantsAwarded": "85 grants in education last year",
+          "keyOutcomes": [
+            "280 scholarships awarded",
+            "1,500 children in early literacy programs",
+            "92% college persistence rate among scholars"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+            "alt": "Students engaged in collaborative learning",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeFocusArea",
+          "id": "focus-health",
+          "title": "Health & Wellness",
+          "path": "/focus-areas/health-wellness",
+          "body": {
+            "processed": "<p>Good health is fundamental to a thriving community. We invest in programs that improve access to healthcare, promote mental wellness, address food insecurity, and reduce health disparities across the Heartland region.</p><h2>Our Strategy</h2><p>We focus on preventive health, behavioral health access, healthy food systems, and health equity. Our grantmaking supports both direct service providers and policy advocacy efforts that create conditions for better community health outcomes.</p><h2>Recent Investments</h2><ul><li>$1.5 million to community health centers serving uninsured populations</li><li>$750,000 for mental health counseling and crisis intervention</li><li>$500,000 to food banks and community nutrition programs</li><li>$350,000 for substance use prevention and recovery support</li></ul>",
+            "summary": "Good health is fundamental to a thriving community. We invest in programs that improve access to healthcare, promote mental wellness, address food insecurity, and reduce health disparities across the "
+          },
+          "iconName": "heart-pulse",
+          "investmentTotal": "$3.1 million annually",
+          "grantsAwarded": "62 grants in health last year",
+          "keyOutcomes": [
+            "15,000 patients served at community health centers",
+            "40% increase in behavioral health access",
+            "2 million meals distributed through food partners"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+            "alt": "Community health screening event",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeFocusArea",
+          "id": "focus-arts",
+          "title": "Arts & Culture",
+          "path": "/focus-areas/arts-culture",
+          "body": {
+            "processed": "<p>The arts enrich our communities, strengthen our cultural identity, and contribute to economic vitality. Heartland Community Foundation supports arts organizations and cultural programs that make creative expression accessible to all residents, regardless of income or background.</p><h2>Our Strategy</h2><p>We invest in arts education for youth, community arts programming, cultural heritage preservation, and the organizational sustainability of arts institutions. We believe that vibrant arts and cultural offerings are essential to quality of life and community identity.</p><h2>Recent Investments</h2><ul><li>$800,000 to arts education programs in schools and community centers</li><li>$500,000 for public art installations and creative placemaking</li><li>$400,000 to support small and mid-size arts organizations</li><li>$250,000 for cultural heritage and preservation projects</li></ul>",
+            "summary": "The arts enrich our communities, strengthen our cultural identity, and contribute to economic vitality. Heartland Community Foundation supports arts organizations and cultural programs that make creat"
+          },
+          "iconName": "palette",
+          "investmentTotal": "$1.95 million annually",
+          "grantsAwarded": "48 grants in arts and culture last year",
+          "keyOutcomes": [
+            "8,000 youth in arts education programs",
+            "12 public art installations completed",
+            "25 arts organizations received operating support"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Community mural painting project",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

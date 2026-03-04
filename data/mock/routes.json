@@ -1,0 +1,807 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Heartland Community Foundation",
+          "path": "/homepage",
+          "heroTitle": "Investing in Our Community's Future",
+          "heroSubtitle": "Connecting Generosity with Opportunity Since 1985",
+          "heroDescription": {
+            "processed": "<p>Heartland Community Foundation brings together donors, nonprofits, and community leaders to address our region's most pressing needs. Through strategic grantmaking, donor services, and community leadership, we help build a stronger, more equitable community for generations to come.</p>",
+            "summary": "Heartland Community Foundation brings together donors, nonprofits, and community leaders to address our region's most pressing needs. Through strategic grantmaking, donor services, and community leade"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-assets",
+              "title": "",
+              "number": "$285M",
+              "label": "Assets Under Management"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-grants",
+              "title": "",
+              "number": "$18.5M",
+              "label": "Granted Last Year"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-nonprofits",
+              "title": "",
+              "number": "450+",
+              "label": "Nonprofit Partners"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-funds",
+              "title": "",
+              "number": "600+",
+              "label": "Charitable Funds"
+            }
+          ],
+          "featuredItemsTitle": "Current Grant Opportunities",
+          "ctaTitle": "Start Your Giving Journey",
+          "ctaDescription": {
+            "processed": "<p>Whether you want to establish a fund, make a gift, or include the foundation in your estate plans, our team can help you create a lasting philanthropic legacy that reflects your values and vision.</p>",
+            "summary": "Whether you want to establish a fund, make a gift, or include the foundation in your estate plans, our team can help you create a lasting philanthropic legacy that reflects your values and vision."
+          },
+          "ctaPrimary": "Open a Fund",
+          "ctaSecondary": "Explore Giving Options"
+        }
+      }
+    }
+  },
+  "/grants/community-impact-grants": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeGrant",
+          "id": "grant-community-impact",
+          "title": "Community Impact Grants",
+          "path": "/grants/community-impact-grants",
+          "body": {
+            "processed": "<p>Community Impact Grants support nonprofit organizations working to address critical needs in education, health, economic opportunity, and community well-being. These competitive grants range from $5,000 to $50,000 and are awarded annually to programs demonstrating measurable community impact.</p><h2>Funding Priorities</h2><ul><li>Programs that address root causes of community challenges</li><li>Collaborative efforts between multiple organizations</li><li>Projects serving historically underserved populations</li><li>Innovative approaches with potential for replication</li></ul><h2>Application Process</h2><p>Applications open March 1 and close May 15. Applicants must submit a Letter of Intent by April 1. Finalists will be invited to submit full proposals and may be asked to participate in a site visit. Grant decisions are announced in August.</p>",
+            "summary": "Community Impact Grants support nonprofit organizations working to address critical needs in education, health, economic opportunity, and community well-being. These competitive grants range from $5,0"
+          },
+          "grantType": [
+            {
+              "id": "community-grant",
+              "name": "community-grant"
+            }
+          ],
+          "fundingAmount": "$5,000 - $50,000",
+          "deadline": {
+            "timestamp": 1778907540
+          },
+          "eligibilityCriteria": {
+            "processed": "<p>Eligible applicants must be 501(c)(3) nonprofit organizations located in or primarily serving the Heartland region. Organizations must have been in operation for at least two years and have an annual budget of at least $100,000. Previous grantees may reapply after a one-year waiting period.</p>",
+            "summary": "Eligible applicants must be 501(c)(3) nonprofit organizations located in or primarily serving the Heartland region. Organizations must have been in operation for at least two years and have an annual "
+          },
+          "focusAreas": [
+            {
+              "id": "education",
+              "name": "education"
+            },
+            {
+              "id": "health-wellness",
+              "name": "health-wellness"
+            },
+            {
+              "id": "economic-development",
+              "name": "economic-development"
+            }
+          ],
+          "applicationUrl": "https://heartlandcf.org/apply/community-impact",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+            "alt": "Community volunteers working together on a project",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/grants/capacity-building-grants": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeGrant",
+          "id": "grant-capacity-building",
+          "title": "Nonprofit Capacity Building Grants",
+          "path": "/grants/capacity-building-grants",
+          "body": {
+            "processed": "<p>Capacity Building Grants help nonprofits strengthen their organizational infrastructure, leadership, and sustainability. Rather than funding direct services, these grants invest in the systems, skills, and strategies that help organizations deliver their missions more effectively over the long term.</p><h2>Eligible Activities</h2><ul><li>Strategic planning and organizational assessment</li><li>Board development and governance training</li><li>Financial management systems and audit preparation</li><li>Technology upgrades and data management</li><li>Staff professional development and leadership coaching</li><li>Fundraising planning and donor management systems</li></ul><p>Grants of up to $25,000 are available. Organizations may use funds over a 12-month period and must submit a final report documenting outcomes and organizational changes.</p>",
+            "summary": "Capacity Building Grants help nonprofits strengthen their organizational infrastructure, leadership, and sustainability. Rather than funding direct services, these grants invest in the systems, skills"
+          },
+          "grantType": [
+            {
+              "id": "capacity-building",
+              "name": "capacity-building"
+            }
+          ],
+          "fundingAmount": "Up to $25,000",
+          "deadline": {
+            "timestamp": 1790830740
+          },
+          "eligibilityCriteria": {
+            "processed": "<p>Open to 501(c)(3) organizations in the Heartland region with annual budgets under $2 million. Applicants must articulate a clear organizational development need and a plan for how the grant will strengthen their capacity to fulfill their mission.</p>",
+            "summary": "Open to 501(c)(3) organizations in the Heartland region with annual budgets under $2 million. Applicants must articulate a clear organizational development need and a plan for how the grant will stren"
+          },
+          "focusAreas": [
+            {
+              "id": "education",
+              "name": "education"
+            },
+            {
+              "id": "health-wellness",
+              "name": "health-wellness"
+            },
+            {
+              "id": "arts-culture",
+              "name": "arts-culture"
+            },
+            {
+              "id": "youth-development",
+              "name": "youth-development"
+            }
+          ],
+          "applicationUrl": "https://heartlandcf.org/apply/capacity-building",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+            "alt": "Nonprofit team collaborating during a strategic planning session",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/grants/heartland-scholars-program": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeGrant",
+          "id": "grant-scholarship",
+          "title": "Heartland Scholars Program",
+          "path": "/grants/heartland-scholars-program",
+          "body": {
+            "processed": "<p>The Heartland Scholars Program provides college scholarships to graduating high school seniors from across the Heartland region. Funded through the generosity of local donors who have established scholarship funds at the foundation, this program has helped more than 3,000 students pursue higher education since 1992.</p><h2>Scholarship Details</h2><ul><li>Awards range from $1,000 to $10,000 per year</li><li>Renewable for up to four years of undergraduate study</li><li>Over 50 named scholarships with varying criteria</li><li>Funds may be used at any accredited college, university, or trade school</li></ul><h2>Selection Criteria</h2><p>Scholarships are awarded based on a combination of academic achievement, community involvement, financial need, and alignment with the specific criteria of each named fund. Some scholarships target specific fields of study, schools, or demographics.</p>",
+            "summary": "The Heartland Scholars Program provides college scholarships to graduating high school seniors from across the Heartland region. Funded through the generosity of local donors who have established scho"
+          },
+          "grantType": [
+            {
+              "id": "scholarship",
+              "name": "scholarship"
+            }
+          ],
+          "fundingAmount": "$1,000 - $10,000 per year (renewable)",
+          "deadline": {
+            "timestamp": 1775019540
+          },
+          "eligibilityCriteria": {
+            "processed": "<p>Applicants must be graduating high school seniors residing in the Heartland region who plan to attend an accredited college, university, or trade school. A minimum GPA of 2.5 is required for most scholarships. Students must complete the FAFSA and submit two letters of recommendation.</p>",
+            "summary": "Applicants must be graduating high school seniors residing in the Heartland region who plan to attend an accredited college, university, or trade school. A minimum GPA of 2.5 is required for most scho"
+          },
+          "focusAreas": [
+            {
+              "id": "education",
+              "name": "education"
+            },
+            {
+              "id": "youth-development",
+              "name": "youth-development"
+            }
+          ],
+          "applicationUrl": "https://heartlandcf.org/apply/scholarships",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Graduating students celebrating academic achievement",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/focus-areas/education": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeFocusArea",
+          "id": "focus-education",
+          "title": "Education",
+          "path": "/focus-areas/education",
+          "body": {
+            "processed": "<p>Education is the cornerstone of individual opportunity and community prosperity. Heartland Community Foundation invests in programs that improve educational outcomes from early childhood through postsecondary completion, with a focus on closing achievement gaps and expanding access for underserved students.</p><h2>Our Strategy</h2><p>We support a continuum of educational programming including early literacy, STEM education, college and career readiness, mentoring, and scholarship opportunities. We also invest in innovative approaches that engage families, strengthen schools, and prepare young people for the workforce of the future.</p><h2>Recent Investments</h2><ul><li>$2.1 million in scholarships awarded to 280 students</li><li>$850,000 to early childhood literacy programs reaching 1,500 children</li><li>$600,000 for STEM enrichment in underserved schools</li><li>$400,000 for college and career readiness coaching</li></ul>",
+            "summary": "Education is the cornerstone of individual opportunity and community prosperity. Heartland Community Foundation invests in programs that improve educational outcomes from early childhood through posts"
+          },
+          "iconName": "graduation-cap",
+          "investmentTotal": "$4.2 million annually",
+          "grantsAwarded": "85 grants in education last year",
+          "keyOutcomes": [
+            "280 scholarships awarded",
+            "1,500 children in early literacy programs",
+            "92% college persistence rate among scholars"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+            "alt": "Students engaged in collaborative learning",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/focus-areas/health-wellness": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeFocusArea",
+          "id": "focus-health",
+          "title": "Health & Wellness",
+          "path": "/focus-areas/health-wellness",
+          "body": {
+            "processed": "<p>Good health is fundamental to a thriving community. We invest in programs that improve access to healthcare, promote mental wellness, address food insecurity, and reduce health disparities across the Heartland region.</p><h2>Our Strategy</h2><p>We focus on preventive health, behavioral health access, healthy food systems, and health equity. Our grantmaking supports both direct service providers and policy advocacy efforts that create conditions for better community health outcomes.</p><h2>Recent Investments</h2><ul><li>$1.5 million to community health centers serving uninsured populations</li><li>$750,000 for mental health counseling and crisis intervention</li><li>$500,000 to food banks and community nutrition programs</li><li>$350,000 for substance use prevention and recovery support</li></ul>",
+            "summary": "Good health is fundamental to a thriving community. We invest in programs that improve access to healthcare, promote mental wellness, address food insecurity, and reduce health disparities across the "
+          },
+          "iconName": "heart-pulse",
+          "investmentTotal": "$3.1 million annually",
+          "grantsAwarded": "62 grants in health last year",
+          "keyOutcomes": [
+            "15,000 patients served at community health centers",
+            "40% increase in behavioral health access",
+            "2 million meals distributed through food partners"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+            "alt": "Community health screening event",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/focus-areas/arts-culture": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeFocusArea",
+          "id": "focus-arts",
+          "title": "Arts & Culture",
+          "path": "/focus-areas/arts-culture",
+          "body": {
+            "processed": "<p>The arts enrich our communities, strengthen our cultural identity, and contribute to economic vitality. Heartland Community Foundation supports arts organizations and cultural programs that make creative expression accessible to all residents, regardless of income or background.</p><h2>Our Strategy</h2><p>We invest in arts education for youth, community arts programming, cultural heritage preservation, and the organizational sustainability of arts institutions. We believe that vibrant arts and cultural offerings are essential to quality of life and community identity.</p><h2>Recent Investments</h2><ul><li>$800,000 to arts education programs in schools and community centers</li><li>$500,000 for public art installations and creative placemaking</li><li>$400,000 to support small and mid-size arts organizations</li><li>$250,000 for cultural heritage and preservation projects</li></ul>",
+            "summary": "The arts enrich our communities, strengthen our cultural identity, and contribute to economic vitality. Heartland Community Foundation supports arts organizations and cultural programs that make creat"
+          },
+          "iconName": "palette",
+          "investmentTotal": "$1.95 million annually",
+          "grantsAwarded": "48 grants in arts and culture last year",
+          "keyOutcomes": [
+            "8,000 youth in arts education programs",
+            "12 public art installations completed",
+            "25 arts organizations received operating support"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Community mural painting project",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/annual-giving-gala": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-gala",
+          "title": "Annual Giving Gala",
+          "path": "/events/annual-giving-gala",
+          "body": {
+            "processed": "<p>Join us for the Heartland Community Foundation's signature fundraising event celebrating the power of philanthropy in our region. The Annual Giving Gala brings together donors, nonprofit leaders, business partners, and community champions for an unforgettable evening of inspiration and generosity.</p><h2>Evening Highlights</h2><ul><li>Cocktail reception with live jazz</li><li>Gourmet dinner prepared by Chef Maria Vasquez</li><li>Keynote address by nationally recognized philanthropy leader</li><li>Community Impact Awards honoring outstanding volunteers and partners</li><li>Live and silent auction featuring exclusive experiences</li></ul><p>All proceeds support the Foundation's Community Impact Fund, which provides grants to nonprofits addressing our region's most critical needs.</p>",
+            "summary": "Join us for the Heartland Community Foundation's signature fundraising event celebrating the power of philanthropy in our region. The Annual Giving Gala brings together donors, nonprofit leaders, busi"
+          },
+          "eventDate": {
+            "timestamp": 1792278000
+          },
+          "endDate": {
+            "timestamp": 1792292400
+          },
+          "location": "Grand Ballroom, Heartland Convention Center",
+          "eventCategory": [
+            {
+              "id": "gala",
+              "name": "gala"
+            }
+          ],
+          "registrationUrl": "https://heartlandcf.org/gala",
+          "ticketPrice": "$250 per person, $2,000 per table of 8",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+            "alt": "Elegant gala dinner setting with table decorations",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/nonprofit-leaders-summit": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-nonprofit-summit",
+          "title": "Nonprofit Leaders Summit",
+          "path": "/events/nonprofit-leaders-summit",
+          "body": {
+            "processed": "<p>The annual Nonprofit Leaders Summit is a full-day professional development event designed for executive directors, board members, and senior staff of nonprofit organizations in the Heartland region. This year's theme, 'Leading Through Change,' explores strategies for organizational resilience and innovation.</p><h2>Sessions Include</h2><ul><li>Adaptive leadership in uncertain times</li><li>Diversifying revenue streams beyond grants</li><li>Effective board governance and engagement</li><li>Using data to demonstrate impact</li><li>DEI strategies for nonprofit organizations</li></ul><p>Lunch and all materials included. Continuing education credits available for social workers and nonprofit professionals.</p>",
+            "summary": "The annual Nonprofit Leaders Summit is a full-day professional development event designed for executive directors, board members, and senior staff of nonprofit organizations in the Heartland region. T"
+          },
+          "eventDate": {
+            "timestamp": 1781271000
+          },
+          "endDate": {
+            "timestamp": 1781299800
+          },
+          "location": "Heartland Community Foundation Conference Center",
+          "eventCategory": [
+            {
+              "id": "workshop",
+              "name": "workshop"
+            }
+          ],
+          "registrationUrl": "https://heartlandcf.org/summit",
+          "ticketPrice": "$75 per person (scholarships available)",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80",
+            "alt": "Professional conference with speaker addressing audience",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/heartland-giving-day": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-giving-day",
+          "title": "Heartland Giving Day",
+          "path": "/events/heartland-giving-day",
+          "body": {
+            "processed": "<p>Heartland Giving Day is a 24-hour online giving event that unites our community in support of local nonprofits. During this community-wide day of generosity, donors can support their favorite organizations through the Foundation's giving portal, with gifts amplified by matching funds from local businesses and foundations.</p><h2>How It Works</h2><ul><li>Browse participating nonprofits on our giving portal</li><li>Make donations to one or more organizations</li><li>Gifts of $25 or more are eligible for matching funds</li><li>Bonus prize pool awards throughout the day for most donors, most raised, and more</li></ul><p>Last year, Heartland Giving Day raised over $3.2 million for 185 local nonprofits with support from 8,500 donors. Join us as we aim to break records in 2026.</p>",
+            "summary": "Heartland Giving Day is a 24-hour online giving event that unites our community in support of local nonprofits. During this community-wide day of generosity, donors can support their favorite organiza"
+          },
+          "eventDate": {
+            "timestamp": 1777957200
+          },
+          "endDate": {
+            "timestamp": 1778043540
+          },
+          "location": "Online at heartlandcf.org/givingday",
+          "eventCategory": [
+            {
+              "id": "community-forum",
+              "name": "community-forum"
+            }
+          ],
+          "registrationUrl": "https://heartlandcf.org/givingday",
+          "ticketPrice": "Free to participate",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80",
+            "alt": "Community members participating in giving day event",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/2025-annual-report-released": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-annual-report",
+          "title": "2025 Annual Report: A Record Year for Community Investment",
+          "path": "/news/2025-annual-report-released",
+          "body": {
+            "processed": "<p>Heartland Community Foundation is pleased to announce the release of our 2025 Annual Report, documenting a record-breaking year of philanthropic impact across the Heartland region.</p><h2>Highlights</h2><ul><li>$18.5 million in total grantmaking, a 12% increase over the prior year</li><li>450 nonprofit organizations received grant funding</li><li>42 new charitable funds established by donors</li><li>Foundation assets surpassed $285 million</li></ul><p>The report features stories from grantees, donors, and community members whose lives have been touched by the Foundation's work. It also outlines our strategic priorities for 2026 and beyond.</p><p>View the full report at heartlandcf.org/annual-report or request a printed copy by contacting our office.</p>",
+            "summary": "Heartland Community Foundation is pleased to announce the release of our 2025 Annual Report, documenting a record-breaking year of philanthropic impact across the Heartland region.Highlights$18.5 mill"
+          },
+          "newsCategory": [
+            {
+              "id": "foundation-news",
+              "name": "foundation-news"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1771167600
+          },
+          "author": "Sarah Mitchell, President & CEO",
+          "summary": {
+            "processed": "<p>Heartland Community Foundation granted $18.5 million to 450 nonprofits in 2025, marking a record year for community investment with assets surpassing $285 million.</p>",
+            "summary": "Heartland Community Foundation granted $18.5 million to 450 nonprofits in 2025, marking a record year for community investment with assets surpassing $285 million."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+            "alt": "Annual report cover with community impact data",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/spring-2026-grant-recipients": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-grant-awards",
+          "title": "Foundation Awards $2.3 Million in Spring Grant Cycle",
+          "path": "/news/spring-2026-grant-recipients",
+          "body": {
+            "processed": "<p>Heartland Community Foundation is proud to announce $2.3 million in grants to 38 nonprofit organizations through our Spring 2026 Community Impact Grant cycle. These investments will support programs in education, health, economic development, and community well-being.</p><h2>Selected Recipients</h2><ul><li><strong>Heartland Literacy Council</strong> - $50,000 for adult literacy and ESL programs</li><li><strong>Community Health Partners</strong> - $45,000 to expand mobile clinic services</li><li><strong>Youth Futures Initiative</strong> - $40,000 for after-school STEM programming</li><li><strong>Heartland Food Cooperative</strong> - $35,000 for healthy food access in food deserts</li></ul><p>This grant cycle received 142 applications requesting more than $8.7 million, underscoring the significant need and the critical role philanthropy plays in our community.</p>",
+            "summary": "Heartland Community Foundation is proud to announce $2.3 million in grants to 38 nonprofit organizations through our Spring 2026 Community Impact Grant cycle. These investments will support programs i"
+          },
+          "newsCategory": [
+            {
+              "id": "grant-announcement",
+              "name": "grant-announcement"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1772380800
+          },
+          "author": "David Chen, Vice President of Programs",
+          "summary": {
+            "processed": "<p>Thirty-eight nonprofit organizations received grants totaling $2.3 million in the Foundation's Spring 2026 Community Impact Grant cycle, supporting education, health, and economic development.</p>",
+            "summary": "Thirty-eight nonprofit organizations received grants totaling $2.3 million in the Foundation's Spring 2026 Community Impact Grant cycle, supporting education, health, and economic development."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
+            "alt": "Grant recipients celebrating at the awards ceremony",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/donor-spotlight-williams-family": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-donor-spotlight",
+          "title": "Donor Spotlight: The Williams Family Legacy Fund",
+          "path": "/news/donor-spotlight-williams-family",
+          "body": {
+            "processed": "<p>For three generations, the Williams family has been quietly transforming lives in the Heartland region through their philanthropic commitment to education. What began as a modest scholarship fund established by Robert and Helen Williams in 1988 has grown into a $4.2 million endowment that has supported more than 500 college students.</p><h2>A Family Tradition of Giving</h2><p>Robert Williams, a retired teacher, and his wife Helen established the Williams Family Legacy Fund with a $10,000 gift to the Foundation. Their goal was simple: ensure that financial barriers would never prevent a motivated student from pursuing higher education.</p><p>Today, their children and grandchildren continue to contribute to the fund and serve on the scholarship selection committee, reviewing applications and interviewing candidates each spring.</p><h2>Impact by the Numbers</h2><ul><li>$4.2 million endowment built over 38 years</li><li>520 scholarships awarded since 1988</li><li>95% of recipients completed their degrees</li><li>Three generations of family involvement</li></ul>",
+            "summary": "For three generations, the Williams family has been quietly transforming lives in the Heartland region through their philanthropic commitment to education. What began as a modest scholarship fund esta"
+          },
+          "newsCategory": [
+            {
+              "id": "donor-spotlight",
+              "name": "donor-spotlight"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1769958000
+          },
+          "author": "Maria Gonzalez, Director of Donor Relations",
+          "summary": {
+            "processed": "<p>The Williams Family Legacy Fund has grown from a $10,000 gift in 1988 to a $4.2 million endowment that has provided 520 scholarships, demonstrating the power of sustained philanthropic commitment.</p>",
+            "summary": "The Williams Family Legacy Fund has grown from a $10,000 gift in 1988 to a $4.2 million endowment that has provided 520 scholarships, demonstrating the power of sustained philanthropic commitment."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+            "alt": "Multi-generational family gathered together",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Heartland Community Foundation",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Heartland Community Foundation was established in 1985 by a visionary group of community leaders who believed that pooling philanthropic resources could create far greater impact than individual giving alone. Over nearly four decades, the Foundation has grown into one of the region's most trusted institutions, managing more than $285 million in charitable assets and granting over $200 million to organizations across the Heartland.</p><h2>Our Mission</h2><p>To inspire philanthropy, strengthen nonprofits, and invest in community solutions that create lasting change for the Heartland region.</p><h2>What We Do</h2><ul><li><strong>Grantmaking</strong> - We award competitive grants to nonprofits addressing critical community needs.</li><li><strong>Donor Services</strong> - We help individuals, families, and businesses create charitable funds that reflect their passions and values.</li><li><strong>Community Leadership</strong> - We convene partners, conduct research, and advocate for effective solutions to complex challenges.</li><li><strong>Nonprofit Support</strong> - We provide capacity-building grants, training, and technical assistance to strengthen the nonprofit sector.</li></ul><h2>Our Board</h2><p>Our volunteer Board of Directors includes business leaders, educators, healthcare professionals, and community advocates who provide strategic guidance and governance oversight. Board members serve three-year terms and are selected to represent the diversity of our region.</p>",
+            "summary": "Heartland Community Foundation was established in 1985 by a visionary group of community leaders who believed that pooling philanthropic resources could create far greater impact than individual givin"
+          }
+        }
+      }
+    }
+  },
+  "/donors": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-donors",
+          "title": "For Donors",
+          "path": "/donors",
+          "body": {
+            "processed": "<h2>Your Giving, Simplified</h2><p>Heartland Community Foundation makes it easy to give strategically and maximize your charitable impact. Whether you are just beginning your philanthropic journey or looking for more sophisticated giving strategies, our donor services team is here to help.</p><h2>Fund Types</h2><ul><li><strong>Donor Advised Funds</strong> - The most popular and flexible option. Make contributions at your convenience, receive an immediate tax deduction, and recommend grants to your favorite nonprofits over time.</li><li><strong>Scholarship Funds</strong> - Invest in the next generation by creating a named scholarship for students who meet criteria you define.</li><li><strong>Field of Interest Funds</strong> - Support a broad cause area like education or health, and let the Foundation's expertise guide grantmaking.</li><li><strong>Designated Funds</strong> - Direct your support to one or more specific nonprofit organizations you care about most.</li><li><strong>Unrestricted Funds</strong> - Give the Foundation flexibility to address the community's most pressing needs.</li></ul><h2>Ways to Give</h2><p>We accept gifts of cash, appreciated securities, real estate, retirement assets, life insurance, and planned gifts through bequests and trusts. Contact our donor services team at (555) 400-1000 or donors@heartlandcf.org to explore your options.</p>",
+            "summary": "Your Giving, SimplifiedHeartland Community Foundation makes it easy to give strategically and maximize your charitable impact. Whether you are just beginning your philanthropic journey or looking for "
+          }
+        }
+      }
+    }
+  }
+}

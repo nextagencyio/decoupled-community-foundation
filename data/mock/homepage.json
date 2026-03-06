@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-assets",
               "title": "",
-              "number": "$285M",
+              "number": "$285M", "value": "$285M",
               "label": "Assets Under Management"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-grants",
               "title": "",
-              "number": "$18.5M",
+              "number": "$18.5M", "value": "$18.5M",
               "label": "Granted Last Year"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-nonprofits",
               "title": "",
-              "number": "450+",
+              "number": "450+", "value": "450+",
               "label": "Nonprofit Partners"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-funds",
               "title": "",
-              "number": "600+",
+              "number": "600+", "value": "600+",
               "label": "Charitable Funds"
             }
           ],

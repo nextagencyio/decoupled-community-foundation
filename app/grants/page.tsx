@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import GrantCard from '../components/GrantCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Grants | Evergreen Community Foundation',

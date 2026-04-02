@@ -1,33 +1,15 @@
 'use client'
 
-import { useQuery } from '@apollo/client'
-import { GET_FEATURED_GRANTS } from '@/lib/queries'
 import { DrupalGrant } from '@/lib/types'
 import Link from 'next/link'
 import ResponsiveImage from './ResponsiveImage'
 import { ArrowRight } from 'lucide-react'
 
-export default function FeaturedGrants() {
-  const { data, loading } = useQuery(GET_FEATURED_GRANTS)
-  const grants: DrupalGrant[] = data?.nodeGrants?.nodes || []
+interface FeaturedGrantsProps {
+  grants?: DrupalGrant[]
+}
 
-  if (loading) {
-    return (
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-900 mb-4">Our Grants</h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[1, 2].map((i) => (
-              <div key={i} className="animate-pulse flex rounded-xl overflow-hidden bg-gray-100 h-48" />
-            ))}
-          </div>
-        </div>
-      </section>
-    )
-  }
-
+export default function FeaturedGrants({ grants = [] }: FeaturedGrantsProps) {
   if (grants.length === 0) return null
 
   return (

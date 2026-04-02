@@ -8,14 +8,15 @@ import WhyChooseUs from './WhyChooseUs'
 import PhotoGallery from './PhotoGallery'
 import FeaturedGrants from './FeaturedGrants'
 import ErrorBoundary from './ErrorBoundary'
-import { DrupalHomepage } from '@/lib/types'
+import { DrupalHomepage, DrupalGrant } from '@/lib/types'
 import { Heart } from 'lucide-react'
 
 interface HomepageRendererProps {
   homepageContent: DrupalHomepage | null | undefined
+  featuredGrants?: DrupalGrant[]
 }
 
-export default function HomepageRenderer({ homepageContent }: HomepageRendererProps) {
+export default function HomepageRenderer({ homepageContent, featuredGrants }: HomepageRendererProps) {
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -29,7 +30,7 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
       </ErrorBoundary>
 
       <ErrorBoundary>
-        <FeaturedGrants />
+        <FeaturedGrants grants={featuredGrants} />
       </ErrorBoundary>
 
       <ErrorBoundary>

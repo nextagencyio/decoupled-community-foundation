@@ -24,21 +24,66 @@ export interface TypedClient {
   raw<T = any>(query: string, variables?: Record<string, any>): Promise<T>
 }
 
+const ROUTE_QUERY = `
+  query ($path: String!) {
+    route(path: $path) {
+      ... on RouteInternal {
+        entity {
+          ... on NodePage { __typename id title path body { processed } }
+          ... on NodeGrant {
+            __typename id title path
+            body { processed }
+            grantType { ... on TermInterface { id name } }
+            fundingAmount
+            deadline { timestamp }
+            eligibilityCriteria { processed }
+            focusAreas { ... on TermInterface { id name } }
+            applicationUrl
+            image { url alt width height }
+          }
+          ... on NodeFocusArea {
+            __typename id title path
+            body { processed }
+            iconName investmentTotal grantsAwarded keyOutcomes
+            image { url alt width height }
+          }
+          ... on NodeEvent {
+            __typename id title path
+            body { processed }
+            eventDate { timestamp } endDate { timestamp }
+            location
+            eventCategory { ... on TermInterface { id name } }
+            registrationUrl ticketPrice
+            image { url alt width height }
+          }
+          ... on NodeNews {
+            __typename id title path
+            body { processed }
+            newsCategory { ... on TermInterface { id name } }
+            publishDate { timestamp } author
+            summary { processed }
+            image { url alt width height }
+          }
+          ... on NodeHomepage {
+            __typename id title path
+            heroTitle heroSubtitle heroDescription { processed }
+            statsItems { ... on ParagraphStatItem { id number label } }
+            featuredItemsTitle
+            ctaTitle ctaDescription { processed } ctaPrimary ctaSecondary
+          }
+        }
+      }
+    }
+  }
+`
+
 // Stub factory — uses raw queryByPath with a basic route query
 export function createTypedClient(client: DecoupledClient): TypedClient {
   return {
     async getEntries() { return [] },
     async getEntry() { return null },
     async getEntryByPath(path) {
-      return client.queryByPath(path, `
-        query ($path: String!) {
-          route(path: $path) {
-            ... on RouteInternal {
-              entity { ... on NodePage { __typename id title path body { processed } } }
-            }
-          }
-        }
-      `)
+      return client.queryByPath(path, ROUTE_QUERY)
     },
     async raw(query, variables) { return client.query(query, variables) },
   }

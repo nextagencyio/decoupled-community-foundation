@@ -4,6 +4,8 @@ import SetupGuide from './components/SetupGuide'
 import ContentSetupGuide from './components/ContentSetupGuide'
 import { Metadata } from 'next'
 import { checkConfiguration } from '../lib/config-check'
+import { GET_HOMEPAGE_DATA, GET_FEATURED_GRANTS } from '@/lib/queries'
+import { DrupalGrant } from '@/lib/types'
 
 // Enable ISR with 1 hour revalidation
 export const revalidate = 3600
@@ -41,7 +43,17 @@ export default async function Home() {
   }
 
   const client = getClient()
-  const homepageContent = await client.getEntryByPath('/') as any
+  const data = await client.raw(GET_HOMEPAGE_DATA)
+  const homepageContent = data?.nodeHomepages?.nodes?.[0] || null
+
+  // Fetch featured grants server-side to avoid client-side Apollo issues
+  let featuredGrants: DrupalGrant[] = []
+  try {
+    const grantsData = await client.raw(GET_FEATURED_GRANTS)
+    featuredGrants = grantsData?.nodeGrants?.nodes || []
+  } catch (error) {
+    console.error('Error fetching featured grants:', error)
+  }
 
   // Check if connected but no content exists - show content import guide
   if (!homepageContent) {
@@ -49,5 +61,5 @@ export default async function Home() {
     return <ContentSetupGuide drupalBaseUrl={drupalBaseUrl} />
   }
 
-  return <HomepageRenderer homepageContent={homepageContent} />
+  return <HomepageRenderer homepageContent={homepageContent} featuredGrants={featuredGrants} />
 }

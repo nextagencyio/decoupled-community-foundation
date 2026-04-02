@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getFocusAreas() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_FOCUS_AREAS, { first: 50 })
+    const data = await client.raw(GET_FOCUS_AREAS, { first: 50 })
     return data?.nodeFocusAreas?.nodes || []
   } catch (error) {
     console.error('Error fetching focus areas:', error)
@@ -55,7 +55,7 @@ export default async function FocusAreasPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <FocusAreaCard key={item.id} item={item} />
               ))}
             </div>

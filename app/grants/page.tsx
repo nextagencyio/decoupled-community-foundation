@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getGrants() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_GRANTS, { first: 50 })
+    const data = await client.raw(GET_GRANTS, { first: 50 })
     return data?.nodeGrants?.nodes || []
   } catch (error) {
     console.error('Error fetching grants:', error)
@@ -55,7 +55,7 @@ export default async function GrantsPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <GrantCard key={item.id} item={item} />
               ))}
             </div>
